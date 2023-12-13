@@ -1,5 +1,5 @@
 {
   "region":"api.use1a1.rockset.com",
-  "workspace":"commons",
-  "collection": "example_write"
+  "workspace":"tyler",
+  "collection": "example_write_transformation"
 }

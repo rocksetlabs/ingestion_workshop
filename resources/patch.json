@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "1",
+    "patch": [
+      {
+        "op": "ADD",
+        "path": "/nested/object",
+        "value": {}
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "patch": [
+      {
+        "op": "remove",
+        "path": "/key"
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "patch": [
+      {
+        "op": "REPLACE",
+        "path": "/keys/key1",
+        "value": "A different Value than before"
+      }
+    ]
+  }
+]
